@@ -1,6 +1,6 @@
 N_num = [5, 10, 15, 20, 25, 30, 35, 40];
 
-exact_integral = 0.2 * (tan(5) - tan(-5));
+exact_integral = integral(@(x) func_1(x), -1, 1);
 disp("Exact integral result:");
 disp(exact_integral);
 

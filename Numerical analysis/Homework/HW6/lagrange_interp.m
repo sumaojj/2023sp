@@ -1,6 +1,6 @@
 function L = lagrange_interp(x, y)
-    L = @(t) 0;
     n = length(x);
+    L = @(t) 0;
 
     for i = 1:n
         term = @(t) y(i);
